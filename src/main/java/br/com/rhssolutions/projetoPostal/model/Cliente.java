@@ -9,7 +9,7 @@ import java.util.Objects;
 @Table(name = "cliente")
 public class Cliente {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
     @ManyToOne

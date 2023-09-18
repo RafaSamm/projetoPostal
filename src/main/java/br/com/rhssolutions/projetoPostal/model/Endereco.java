@@ -1,18 +1,18 @@
 package br.com.rhssolutions.projetoPostal.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 /**
  * Atributos gerados pelo ViaCEP: https://viacep.com.br/
  *
+ *
+ * @see <a href="https://www.jsonschema2pojo.org/">JSON Schema to Java Object</a>
  * @see <a href="https://viacep.com.br/">ViaCEP</a>
  *
  *
  * @author RHSsolutions
  */
+
 @Entity
 @Table(name = "endereco")
 public class Endereco {
